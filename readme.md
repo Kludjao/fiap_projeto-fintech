@@ -12,8 +12,8 @@ Caso faça mais de uma tela, a navegação entre elas é opcional.
 
 - Visão Geral:
     - Este projeto consiste na implementação de uma tela utilizando Bootstrap, baseada na prototipação feita no Figma para o projeto fintech da
-    - FIAP. A tela foi desenvolvida para ser responsiva e utiliza principalmente as funcionalidades oferecidas pelo Bootstrap para garantir um
-    - layout adaptável. O objetivo foi criar uma representação inicial do aplicativo web, alinhada com as diretrizes do projeto original. 
+    FIAP. A tela foi desenvolvida para ser responsiva e utiliza principalmente as funcionalidades oferecidas pelo Bootstrap para garantir um
+  layout adaptável. O objetivo foi criar uma representação inicial do aplicativo web, alinhada com as diretrizes do projeto original. 
 
     
 
