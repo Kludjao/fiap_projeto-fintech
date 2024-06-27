@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="celular bg-light shadow-lg rounded overflow-hidden position-relative">
+
+    <div class="container">
+
+        <!-- cabecalho -->
+        <header class="row mb-3">
+            <div class="col d-flex align-items-center">
+                <div class="imagem bg-dark rounded-circle" style="width: 35px; height: 35px;"></div>
+                <div class="ms-3">
+                    <p id="datah" class="mb-0 small fw-normal">27/06/2024</p>
+                    <p class="mb-0 fw-bold">Olá, Claraboia!</p>
+                </div>
+            </div>
+            <div class="col-auto d-flex align-items-center">
+                <a class="menp" href=""><img src="../images/Notification.svg" alt="Notification" class="me-2"></a>
+                <a class="menp" href=""><img src="../images/menu.svg" alt="Menu"></a>
+                
+                
+            </div>
+        </header>
+
+        <main>
+
+            <!-- card saldo -->
+            <div class="saldo rounded-3 p-3 mb-3 position-relative d-flex flex-column justify-content-center">
+                <img src="../images/saldoabstrato.svg" alt="" class="position-absolute d-flex end-0" >
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0 fw-semibold" style="color: #666;">Saldo total</h5>
+                    
+                    <a href="#" class="abs menp"><img src="../images/eye.svg" alt=""></a><!-- Icone de olho -->
+                </div>
+                <h1 class="mb-0 text-start fw-bold">R$ 3,124.43</h1>
+                <div class="d-flex align-items-center mt-2">
+                    <p class="mb-0 me-2 bg-light px-1 rounded text-danger">↓</p>
+                    <p class="mb-0 text-danger">-4.08%</p>
+                </div>
+            </div>
+
+            <!-- small menu 4 op -->
+            <div class="d-flex col-12 fs-6">
+
+                <div class="add col-3 p-3">
+                    <a href="#" class="text-decoration-none link-dark">
+                        <div class="menp icon-container rounded-4 d-flex align-items-center justify-content-center bg-black">
+                            <img src="../images/iconadd.svg" alt="">
+                        </div>
+                        <p class="text-center pt-1" style="font-size: 0.8rem;">Adicionar</p>
+                    </a>
+                </div>
+
+                <div class="trc col-3 p-3">
+                    <a href="#" class="text-decoration-none link-dark">
+                        <div class="menp icon-container rounded-4 d-flex align-items-center justify-content-center bg-black">
+                            <img src="../images/icontrc.svg" alt="">
+                        </div>
+                        <p class="text-center pt-1" style="font-size: 0.8rem;">Transações</p>  
+                    </a>
+                </div>
+
+                <div class="est col-3 p-3">
+                    <a href="#" class="text-decoration-none link-dark">
+                        <div class="menp icon-container rounded-4 d-flex align-items-center justify-content-center bg-black">
+                            <img src="../images/iconest.svg" alt="">
+                        </div>
+                        <p class="text-center pt-1" style="font-size: 0.8rem;">Estatísticas</p>  
+                    </a>
+                </div>
+                
+                <div class="cartiv col-3 p-3">
+                    <a href="#" class="text-decoration-none link-dark">
+                        <div class="menp icon-container rounded-4 d-flex align-items-center justify-content-center bg-black">
+                            <img src="../images/iconcart.svg" alt="">
+                        </div>
+                        <p class="text-center pt-1" style="font-size: 0.8rem;">Carteira de Investimento</p>  
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Recebimentos x Gastos -->
+
+            <div class="container d-flex justify-content-between ">
+
+                <div class="rec_gas rounded-4 col-6 d-flex align-items-center ps-2 me-4">
+                    <div class="receb rounded-4 d-flex align-items-center justify-content-center me-3">
+                        ↑
+                    </div>
+                    <div class="d-flex flex-column me-auto pe-2">
+                        <p class="fw-light">Recebimentos</p>
+                        <p class="fw-bold">R$5.312,60</p>
+                    </div>
+                    <img class="img-fluid me-2" src="../images/iconbigest.svg" alt="" style="min-width: 45px; height: auto;">
+                </div>
+            
+                <div class="rec_gas rounded-4 col-6 d-flex align-items-center ps-2">
+                    <div class="receb rounded-4 d-flex align-items-center justify-content-center me-3">
+                        ↓
+                    </div>
+                    <div class="d-flex flex-column me-auto pe-2">
+                        <p class="fw-light">Gastos</p>
+                        <p class="fw-bold">R$5.312,60</p>
+                    </div>
+                    <img class="img-fluid me-2" src="../images/iconbigest.svg" alt="" style="min-width: 45px; height: auto;">
+                </div>
+            
+            </div>
+            
+            <!-- Transaoes recentes -->
+            <div class="transacoes container rounded-top">
+                <div class="d-flex mb-2 justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <p class="fs-5 fw-bold mb-0">Transações Recentes</p>    
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p class="fs-6 mb-0 ms-3 ver">Ver Mais</p>
+                    </div>
+                </div>
+            
+                <div class="d-flex mb-3">
+                    <ul class="nav nav-pills me-auto">
+                        <li class="nav-item">
+                            <input class="btn-check" type="radio" id="tab1" name="amount" checked="checked" />
+                            <label class="btn btn-sm" for="tab1">Tudo</label>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <input class="btn-check" type="radio" id="tab2" name="amount" />
+                            <label class="btn btn-sm" for="tab2">Recebimentos</label>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <input class="btn-check" type="radio" id="tab3" name="amount" />
+                            <label class="btn btn-sm" for="tab3">Gastos</label>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-decoration-none link-dark"><img src="../images/Pesquisar.svg" alt="pesquisar"></a>
+                    
+
+                </div>
+            
+                <div class="d-flex mb-3">
+                    <img src="../images/clock.svg" alt="clock" class="me-1">
+                    <p>Hoje</p>
+                </div>
+
+                <div class="list">
+                    <div class="item1 mb-2">
+                        <div class="d-flex justify-content-between align-items-center bg-white py-4 rounded">
+                            <div class="d-flex align-items-center">
+                                <div class="text d-flex align-items-center ps-3">
+                                    <div class="imagem bg-dark rounded-circle" style="width: 50px; height: 50px;"></div>
+                                    <div class="info d-flex flex-column ps-3">
+                                        <div class="title fw-bold">Salário</div>
+                                        <div class="description text-muted small">7:35pm</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="value me-1">-</div>
+                                <div class="value fw-bold pe-3">R$998.0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2 mb-2">
+                        <div class="d-flex justify-content-between align-items-center bg-white py-4 rounded">
+                            <div class="d-flex align-items-center">
+                                <div class="text d-flex align-items-center ps-3">
+                                    <div class="imagem bg-dark rounded-circle" style="width: 50px; height: 50px;"></div>
+                                    <div class="info d-flex flex-column ps-3">
+                                        <div class="title fw-bold">Salário</div>
+                                        <div class="description text-muted small">7:35pm</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="value me-1">+</div>
+                                <div class="value fw-bold pe-3">R$998.0</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item3 mb-2">
+                        <div class="d-flex justify-content-between align-items-center bg-white py-4 rounded">
+                            <div class="d-flex align-items-center">
+                                <div class="text d-flex align-items-center ps-3">
+                                    <div class="imagem bg-dark rounded-circle" style="width: 50px; height: 50px;"></div>
+
+                                    <div class="info d-flex flex-column ps-3">
+                                        <div class="title fw-bold">Salário</div>
+                                        <div class="description text-muted small">7:35pm</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="value me-1">-</div>
+                                <div class="value fw-bold pe-3">R$998.0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item4 mb-2">
+                        <div class="d-flex justify-content-between align-items-center bg-white py-4 rounded">
+                            <div class="d-flex align-items-center">
+                                <div class="text d-flex align-items-center ps-3">
+                                    <div class="imagem bg-dark rounded-circle" style="width: 50px; height: 50px;"></div>
+                                    <div class="info d-flex flex-column ps-3">
+                                        <div class="title fw-bold">Salário</div>
+                                        <div class="description text-muted small">7:35pm</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="value me-1">+</div>
+                                <div class="value fw-bold pe-3">R$998.0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Caso venha adicionar outras listas será aqui -->
+                </div>
+            </div>
+
+            <!-- menu de baixo -->
+            <div class="d-flex justify-content-center">
+                <div class="footer-menu container position-fixed d-flex justify-content-between rounded-4">
+                    <a class="menp" href="#home">
+                        <img src="../images/rphome.svg" alt="Home">
+                    </a>
+                    <a class="menp" href="#estatisticas">
+                        <img src="../images/rpestatisticas.svg" alt="Estatísticas">
+                    </a>
+                    <a class="menp" href="#adicionar">
+                        <img src="../images/rpadd.svg" alt="Adicionar" style="height: 40px;">
+                    </a>
+                    <a class="menp" href="#transacoes">
+                        <img src="../images/rptrans.svg" alt="Transações">
+                    </a>
+                    <a class="menp" href="#carteira">
+                        <img src="../images/rpcart.svg" alt="Carteira">
+                    </a>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #49E3C1;
+
+}
+
+
+p{
+    margin-bottom: 0px;
+}
+
+#datah {
+    font-weight: 450;
+    font-size: x-small;
+}
+
+.container {
+    padding: 25px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.celular {
+    background-color: #F7F7F7;
+    margin: 10px;
+    min-height: 100vh;
+    /* height: 812px; */
+    width: 100vw;
+    /* width: 393px; */
+    box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+    transform: scale(0.9);
+    transform-origin: top center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.imagem {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+
+.notfig img {
+    padding-left: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.data-nome {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.saldo {
+    width: 100%;
+    height: 144px;
+    background-color: #d8fff7;
+    border-radius: 15px;
+}
+
+.transacoes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn {
+    background-color: #E6F3F1;
+    color: #BECAC7;
+}
+
+.ver {
+    color: #49E3C1;
+    cursor: pointer;
+}
+
+.icon-container {
+    height: 80px;
+    width: auto;
+    color: black;
+}
+
+.rec_gas {
+    height: 100px;
+    border: 1px solid #C4C4C4;
+}
+
+.receb{
+    background-color: #49E3C1;
+    height: 80%;
+    width: 100px;
+
+    color: white;
+}
+
+
+
+.footer-menu {
+    bottom: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 40px); 
+    max-width: 500px; 
+    height: 100px;
+    background-color: black; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+    padding: 0 40px; 
+}
+
+.footer-menu img {
+    height: 30px; 
+    width: auto;
+}
+
+.menp:hover{
+    scale: 1.1;
+    transition: 0.3s;
+
+}
+
+.value {
+    color: #49E3C1;
+}
+.transacoes {
+    background-color: #EDFCF9;
+}
+
+.abs {
+    z-index: 1;
+}
